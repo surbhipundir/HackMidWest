@@ -15,8 +15,8 @@ import com.cloudinary.SingletonManager;
 public class App {
 	public static void main(String[] args) throws IOException {
 		Cloudinary cloudinary = new Cloudinary
-				(ObjectUtils.asMap("cloud_name", "dpgwnhn5s", "api_key", "716471849818819",
-				"api_secret", "bsAvNta4VMZzBVkxoq8mqfkQ8mk"));
+				(ObjectUtils.asMap("cloud_name", "cloud_name", "api_key", "api_key",
+				"api_secret", "api_secret"));
 		
 		SingletonManager manager = new SingletonManager();
 		manager.setCloudinary(cloudinary);
