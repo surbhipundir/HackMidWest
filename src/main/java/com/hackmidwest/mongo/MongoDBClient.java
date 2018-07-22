@@ -21,7 +21,7 @@ import com.mongodb.MongoClientURI;
 public class MongoDBClient {
 
 	public static void main(String[] args) throws UnknownHostException {
-		MongoClient mongoClient = new MongoClient(new MongoClientURI("mongodb://vmordersdev2.ip.devcerner.net:27017"));
+		MongoClient mongoClient = new MongoClient(new MongoClientURI("mongodb://localhost:27017"));
 		personTable(mongoClient);
 		bookTable(mongoClient);
 		itemInformationTable(mongoClient);
